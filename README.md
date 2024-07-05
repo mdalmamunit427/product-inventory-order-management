@@ -1,9 +1,6 @@
 # product-inventory-order-management
 
-### **Live URL**
 
-- GitHub Repository URL (Server): https://github.com/mdalmamunit427/order-inventory-management.git
-- Live Server Link: https://product-inventory-management.vercel.app/
 
 ### How to run the application locally
 
@@ -14,6 +11,14 @@ Firstly to run the application have to install dependency :
 * To run this project command: 
 ```
 npm run start
+```
+
+### **Enviroment Variables**
+```
+PORT=5000
+DB_URL="mongodb+srv://mamun:FKJGAXt6Gc6mMJYR@order-inventory.cisftfs.mongodb.net/order-inventory?retryWrites=true&w=majority&appName=order-inventory"
+JWT_SECRET="f79ee2ca7786002f0b6ecda9928678b0c42efe6b576a70e2a3f6d72b721a425c4caad
+dc9c70ed65c98bd6cf48e118b33729e0a6a2aca5cea59de80069b566823"
 ```
 
 **Objective:** Develop a Express application with TypeScript as the programming language, integrating MongoDB with Mongoose for effective data management. Ensure data integrity through validation using Joi/Zod.
